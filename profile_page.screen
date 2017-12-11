@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.tslthewall.com **intro&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="8" x="22" y="72" width="792" height="131" measuredWidth="792" measuredHeight="131" src="assets/thewallpf%20(1).jpg"/>
+  <widgets xsi:type="model:Image" id="21" x="22" y="202" width="792" height="406" measuredWidth="792" measuredHeight="406" src="assets/thewallpf.jpg"/>
+  <widgets xsi:type="model:TextField" id="2" x="128" y="210" width="585" text="Your profile" measuredWidth="585" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="5" x="119" y="256" width="601" height="305" measuredWidth="601" measuredHeight="305">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="240" y="352" width="207" text="Sullivan" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="240" y="384" width="207" text="sullivan@whatever.com" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="28" x="27" y="628" text="** first name&#xA;** last name&#xA;** email (if availalble)&#xA;** profile picture" measuredWidth="135" measuredHeight="60">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="240" y="320" width="207" text="Sullivan" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="240" y="288" width="207" text="Arthur" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="50" x="307" y="432" width="140" height="33" text="Edit Profile" measuredWidth="140" measuredHeight="33" background="#0ff" link="edit_profile.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="51" x="128" y="288" width="105" text="First Name" measuredWidth="105" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="52" x="128" y="320" width="105" text="Last Name" measuredWidth="105" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="53" x="128" y="352" width="105" text="Username" measuredWidth="105" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="54" x="128" y="384" width="105" text="email address" measuredWidth="105" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="56" x="22" y="72" width="145" height="49" text="The Wall" measuredWidth="145" measuredHeight="49" background="#0ff" link="home_user_auth.screen">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.whatevermail.com **contact_us_email&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="4" x="272" y="112" width="410" height="497" text="Hi Sullivan,&#xA;&#xA;Thanks for reaching out to us.  We will send you a more detailed response in the next three days.  Below are details of your message.    &#xA;user ID: 346345756 &#xA;email: sullivan@whatevermail.com &#xA;Your name: Sullivan&#xA;Date you sent message: 12/6/12&#xA;Subject: Kudos&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;" measuredWidth="410" measuredHeight="497">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="23" x="32" y="72" width="489" height="25" text="WHATEVERMAIL - INBOX&#xA;" measuredWidth="489" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="24" x="32" y="112" width="217" height="497" text="|info@tsl.io - We got your message&#xA;amazon - order sent&#xA;mom - eat your veggies&#xA;Lyft - how was your ride?&#xA;" measuredWidth="217" measuredHeight="497">
+    <font/>
+    <items x="0" y="2" width="217" height="21" text="|info@tsl.io - We got your message"/>
+    <items x="0" y="23" width="217" height="21" text="amazon - order sent"/>
+    <items x="0" y="44" width="217" height="21" text="mom - eat your veggies"/>
+    <items x="0" y="65" width="217" height="21" text="Lyft - how was your ride?"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="25" x="480" y="224" width="225" text="Subject prefilled?  Why?" measuredWidth="225" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="26" x="288" y="288" width="361" height="191" text="Hi The Wall,&#xA;&#xA;Just gotta say: Nate would make a stellar Agile Product Owner.&#xA;&#xA;Cheers,&#xA;Sullivan" measuredWidth="361" measuredHeight="191" background="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="512" y="521" width="137" height="31" text="Return to the wall" measuredWidth="137" measuredHeight="31" background="#0ff" link="home_user_auth.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="29" x="280" y="510" text="Cheers,&#xA;The Wall and TSL&#xA;info@tsl.io" measuredWidth="108" measuredHeight="53" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="30" x="288" y="264" width="73" height="25" text="Message" measuredWidth="73" measuredHeight="25" borderColor="#fff">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

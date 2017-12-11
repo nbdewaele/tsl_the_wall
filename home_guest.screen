@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.tslthewall.com/home_guest&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="21" x="22" y="136" width="792" height="472" measuredWidth="792" measuredHeight="472" src="assets/thewallpf.jpg"/>
+  <widgets xsi:type="model:TextArea" id="24" x="15" y="62" width="805" height="67" text="To post to The Wall, login or sign up" measuredWidth="805" measuredHeight="67" textAlignment="Center" background="#eee" lineHeight="2.0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="736" y="83" measuredWidth="73" measuredHeight="25" link="Intro.screen">
+    <widgets xsi:type="model:Button" id="19" width="73" text="Sign Up" measuredWidth="73" measuredHeight="25" background="#0ff" style="round">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="22" y="72" width="145" height="49" text="The Wall" measuredWidth="145" measuredHeight="49" background="#0ff" link="">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="640" y="83" measuredWidth="89" measuredHeight="25" link="Intro.screen">
+    <widgets xsi:type="model:Button" id="38" width="89" text="Login" measuredWidth="89" measuredHeight="25" background="#0ff" style="round">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Table" id="39" x="32" y="152" width="777" height="449" text="userame,=. Date v,(w:30). Posts&#xA;Gilbert,12-5,And did it very well&#xA;Sullivan,12-5,He did nothing in particular&#xA;Facebook,12-5,When we pulled the plug on our two bots\, we repeated the tower of Babel&#xA;Valentine Michael Smith,12-5,I grok it&#xA;Pi,12-5,I like swimming pools&#xA;James St. James,12-5,If you have a hunchback\, throw some glitter on it and go dancing&#xA;Nate B. Dewaele,12-5,Gearing up to be a stellar Agile Product Owner&#xA;D. Sedaris,12-5,If you read someone else's diary\, you get what you deserve.&#xA;A. Sedaris,12-5,I have a very muscular face&#xA;Colbert,12-5,I cant prove it. but I can say it&#xA;John Waters,12-5,Contemporary art hates you.&#xA;Tim Ferriss,12-5,Many a false step was made by standing still&#xA;deGrasse,12-4,Rational thoughts never drive people's creativity the way emotions do.&#xA;theOnion,12-4,Study Reveals: Babies Are Stupid&#xA;theOnion,12-4,Dolphin Spends Amazing Vacation Swimming With Stockbroker&#xA;Asimov,12-4,Those who think they know everything are a great annoyance to those of us who do&#xA;Steve Martin,12-4,A day without sunshine is like\, you know\, night.&#xA;Jim Carrey,12-4,Behind every great man is a woman rolling her eyes.&#xA;Hubbard,12-4,Do not take life too seriously. You will never get out of it alive.&#xA;" measuredWidth="777" measuredHeight="449" selection="0" verticalScrollbar="true" alternative="#eee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

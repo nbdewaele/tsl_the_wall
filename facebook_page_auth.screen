@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.facebook.com&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="4" x="32" y="112" width="618" height="233" text="Would you like to allow the wall to use your facebook login info to create an account with them?  Information provided to them includes your first name, last name, email (if availalble), profile picture" measuredWidth="618" measuredHeight="233">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="23" x="32" y="72" width="489" height="25" text="Facebook - Sullivan" measuredWidth="489" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="56" y="192" width="201" text="Use facebook to create account" measuredWidth="201" measuredHeight="25" background="#0ff" link="home_user_auth.screen" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="27" x="56" y="240" width="489" height="81" text="I don't wan't to create account&#xA;" measuredWidth="489" measuredHeight="81" background="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="28" x="56" y="160" width="489" height="25" text="Enter the username you would like to use here" measuredWidth="489" measuredHeight="25" background="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="280" y="280" width="73" text="No" measuredWidth="73" measuredHeight="25" background="#0ff" link="Intro.screen" style="round">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

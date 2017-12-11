@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.tslthewall.com **intro&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="8" x="22" y="72" width="792" height="131" measuredWidth="792" measuredHeight="131" src="assets/thewallpf%20(1).jpg"/>
+  <widgets xsi:type="model:Image" id="21" x="22" y="202" width="792" height="406" measuredWidth="792" measuredHeight="406" src="assets/thewallpf.jpg"/>
+  <widgets xsi:type="model:TextField" id="2" x="128" y="210" width="217" text="Welcome to the TSL Wall" measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="128" y="248" width="217" height="360" text="We just like to call it &quot;The Wall&quot;.  If you have something to say, you can login or create an account.&#xA;&#xA;If you're here just to take a look, click the button below." measuredWidth="217" measuredHeight="360">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="4" x="432" y="210" width="289" height="135" text="Log in&#xA;" measuredWidth="289" measuredHeight="135">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="5" x="432" y="352" width="289" height="256" text="Sign up to start posting&#xA;" measuredWidth="289" measuredHeight="256">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="442" y="266" width="119" text="Password" measuredWidth="119" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="442" y="232" width="207" text="Username" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="442" y="440" width="207" text="Username" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="442" y="468" width="207" text="Email" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="442" y="496" width="119" text="Password" measuredWidth="119" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="578" y="265" width="54" text="Log In" measuredWidth="54" measuredHeight="25" background="#0ff" link="home_user_auth.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="568" y="495" width="73" text="Sign Up" measuredWidth="73" measuredHeight="25" background="#0ff" link="confirm_email_inbox.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="20" x="160" y="374" width="145" text="Just looking" measuredWidth="145" measuredHeight="25" background="#0ff" link="home_guest.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="22" x="432" y="289" height="27" text="[x] Remember me&#xA;&#xA;" measuredWidth="113" measuredHeight="27" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="113" height="22" text="[x] Remember me"/>
+    <items x="0" y="24" width="113" height="22"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="25" x="608" y="291" text="Forgot Password?" measuredWidth="104" measuredHeight="23" link="password_reset.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="26" x="443" y="536" width="219" height="65" text="Or sign up with facebook" measuredWidth="219" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="463" y="560" width="166" height="33" text="Sign Up With Facebook" measuredWidth="166" measuredHeight="33" background="#0ff" link="facebook_page_auth.screen" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="28" x="27" y="628" text="** first name&#xA;** last name&#xA;** email (if availalble)&#xA;** profile picture" measuredWidth="135" measuredHeight="60">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="442" y="408" width="207" text="Last Name" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="442" y="376" width="207" text="First Name" measuredWidth="207" measuredHeight="23" background="#ccc" borderColor="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="32" x="608" y="315" text="Terms of use" measuredWidth="77" measuredHeight="23" link="terms_of_use_link_back_to_guest_home.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="33" x="432" y="313" height="27" text="[x] I aggree to terms of use&#xA;&#xA;" measuredWidth="166" measuredHeight="27" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="166" height="22" text="[x] I aggree to terms of use"/>
+    <items x="0" y="24" width="166" height="22"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

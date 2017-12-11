@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="815" height="615" text="Browser&#xA;http://www.tslthewall.com/home/user_auth **delete&#xA;" measuredWidth="815" measuredHeight="615">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="21" x="22" y="136" width="792" height="472" measuredWidth="792" measuredHeight="472" src="assets/thewallpf.jpg"/>
+  <widgets xsi:type="model:TextArea" id="24" x="15" y="62" width="805" height="67" text="You Are Logged In Sullivan" measuredWidth="805" measuredHeight="67" textAlignment="Center" background="#eee" lineHeight="2.0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="22" y="72" width="145" height="49" text="The Wall" measuredWidth="145" measuredHeight="49" background="#0ff">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="39" x="22" y="264" width="787" height="337" text="userame,=. Date v,(w:30). Posts,(align:center). Actions&#xA;Gilbert,12-5,And did it very well,&#xA;Sullivan,12-5,He did nothing in particular,[Edit] [Delete]&#xA;Facebook,12-5,When we pulled the plug on our two bots\, we repeated the tower of Babel,&#xA;Valentine Michael Smith,12-5,I grok it,&#xA;Hubbard,12-4,Do not take life too seriously. You will never get out of it alive.,&#xA;James St. James,12-5,If you have a hunchback\, throw some glitter on it and go dancing,&#xA;Nate B. Dewaele,12-5,Gearing up to be a stellar Agile Product Owner,&#xA;D. Sedaris,12-5,If you read someone else's diary\, you get what you deserve.,&#xA;A. Sedaris,12-5,I have a very muscular face,&#xA;Colbert,12-5,I cant prove it. but I can say it,&#xA;John Waters,12-5,Contemporary art hates you.,&#xA;Tim Ferriss,12-5,Many a false step was made by standing still,&#xA;deGrasse,12-4,Rational thoughts never drive people's creativity the way emotions do .,&#xA;theOnion,12-4,Study Reveals: Babies Are Stupid,&#xA;theOnion,12-4,Dolphin Spends Amazing Vacation Swimming With Stockbroker,&#xA;Asimov,12-4,Those who think they know everything are a great annoyance to those of us who do,&#xA;Steve Martin,12-4,A day without sunshine is like\, you know\, night.,&#xA;Jim Carrey,12-4,Behind every great man is a woman rolling her eyes.,&#xA;&#xA;" measuredWidth="787" measuredHeight="337" selection="0" verticalScrollbar="true" alternative="#eee">
+    <font/>
+    <items x="700" y="46" width="23" height="15" text="Edit"/>
+    <items x="725" y="46" width="38" height="15" text="Delete"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="40" x="20" y="136" width="805" height="105" measuredWidth="805" measuredHeight="105" background="#f3f3f3" lineHeight="2.0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="41" x="32" y="168" width="619" height="41" text="What's on your mind?" measuredWidth="619" measuredHeight="41" background="#ccc" lineHeight="2.0">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="42" x="664" y="168" width="145" height="41" text="Publish" measuredWidth="145" measuredHeight="41" background="#0ff" style="round">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="44" x="772" y="80" measuredWidth="32" measuredHeight="32" icon="assets/fa-align-justify (large)"/>
+  <widgets xsi:type="model:Arrow" id="45" x="756" y="325" width="17" height="17" measuredWidth="17" measuredHeight="17"/>
+  <widgets xsi:type="model:Alert" id="51" x="134" y="100" width="577" height="226" text="Alert&#xA;Are you sure you want to delete this post?&#xA;Yes Delete,Cancel" measuredWidth="577" measuredHeight="226" icon="warning (large)">
+    <items x="385" y="187" width="81" height="24" text="Yes Delete"/>
+    <items x="481" y="187" width="81" height="24" text="Cancel"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="166" y="200" width="531" measuredWidth="531" measuredHeight="25">
+    <widgets xsi:type="model:TextArea" id="48" width="531" height="25" text="He did nothing in particular - I'm talking about you Gillbert" measuredWidth="531" measuredHeight="25" background="#ccc" lineHeight="2.0">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="49" x="608" y="274" width="89" height="39" text="Cancel" measuredWidth="89" measuredHeight="39" background="#0ff" link="home_user_auth.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="50" x="512" y="274" width="89" height="39" text="Yes Delete" measuredWidth="89" measuredHeight="39" background="#0ff" link="home_user_auth_deleted.screen">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
